@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				4,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle instance 1"
+		},
+		{
+			"offsets": [
+				10,
+				157
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left instance 1"
+		},
+		{
+			"offsets": [
+				10,
+				320
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right instance 1"
+		},
+		{
+			"offsets": [
+				-20,
+				230
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down instance 1"
+		},
+		{
+			"offsets": [
+				-106,
+				361
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up instance 1"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/redbald",
+	"position": [
+		-330,
+		-20
+	],
+	"healthicon": "paldo",
+	"flip_x": false,
+	"healthbar_colors": [
+		141,
+		0,
+		25
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
