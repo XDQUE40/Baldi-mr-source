@@ -1211,6 +1211,12 @@ class PlayState extends MusicBeatState
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
 		// UI_camera.zoom = 1;
+		
+	#if android
+	addAndroidControls();
+	androidControls.visible = true;
+	#end	
+	
 		// cameras = [FlxG.cameras.list[1]];
 		startingSong = true;
 		updateTime = true;
