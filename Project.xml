@@ -50,7 +50,7 @@
 	<!--<define name="ACHIEVEMENTS_ALLOWED" />
 	<define name="VIDEOS_ALLOWED" if="web || windows" unless="32"/>-->
 
-	<!-- <define<assets path="assets/android" if="android"/> name="PRELOAD_ALL" /> -->
+	<!-- <definename="PRELOAD_ALL" /> -->
 	<define name="PRELOAD_ALL" unless="web" />
 	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
 	
