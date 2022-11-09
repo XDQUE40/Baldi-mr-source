@@ -11,7 +11,6 @@ import flixel.input.gamepad.FlxGamepadButton;
 import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.keyboard.FlxKey;
 #if android
-import flixel.group.FlxGroup;
 import android.flixel.FlxButton;
 import android.flixel.FlxHitbox;
 import android.flixel.FlxVirtualPad;
@@ -514,7 +513,7 @@ class Controls extends FlxActionSet
 			}
 		}
 	}
-	#end				
+	#end		
 	override function update()
 	{
 		super.update();
@@ -739,7 +738,8 @@ class Controls extends FlxActionSet
 		forEachBound(control, function(action, _) removeKeys(action, copyKeys));
 		#end
 	}
-	#else
+
+		#else
 
 	public function bindKeys(control:Control, keys:Array<FlxKey>)
 	{
@@ -759,7 +759,6 @@ class Controls extends FlxActionSet
 		#end
 	}	
 	#end			
-
 	inline static function addKeys(action:FlxActionDigital, keys:Array<FlxKey>, state:FlxInputState)
 	{
 		for (key in keys)
