@@ -789,7 +789,7 @@ class Controls extends FlxActionSet
 		#if (haxe >= "4.0.0")
 		switch (scheme)
 		{
-			
+			case Solo:
 				
 			case Duo(true):
 				inline bindKeys(Control.UI_UP, [W]);
